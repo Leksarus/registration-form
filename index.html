@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>project-13-formularz</title>
+	<style>
+		table {
+			border-spacing: 0;
+			border-collapse: collapse;
+		}
+		tr {
+			height: 30px;
+		}
+		select {
+			height: 28px;
+			border: 2px solid #9EACB8; 
+			border-style: ridge; 
+		}
+		input {
+			height: 23px;
+			border: 2px solid #9EACB8;
+			border-style: ridge;
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<form action="firstForm" method="post">
+		<div class="wholePage">
+			<img src="onetLogo.jpg">
+			<div class="mainFrame">
+				<div class="leftUpSign">
+					<div class="leftUpSignTxt">Załóż nowe konto</div>
+				</div>
+				<div class="rightUpSign">
+					<div class="rightUpSignTxt">Pomoc</div>
+				</div>
+				<div class="midMainFrame">  
+					<div class="midMainFrameTitleLeft">
+						<img src="mailbox.jpg" style="width: 110px; height:100px">
+					</div>
+					<div class="midMainFrameTitleRight">
+						<div class="midMainFrameTitleRightUpTxt">Twoja poczta w Onecie</div>
+						<p>Aby założyć pocztę, wypełnij poniższy formularz. Zajmie Ci to kilka minut.</p>
+					</div>
+					<!-- jak wyrównać o określoną ilość px od krawędzi kontenera? -->
+					<div class="containerForTable">
+						<table class="yourData" align="center">
+							<tr>
+								<td></td>
+								<th colspan="3" class="tableHeader"> Twoje dane: </th>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt"> Imię i nazwisko: </td>
+								<td colspan="3">
+									<input type="text" class="wilderTxtInput">
+								</td>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt"> Płeć: </td>
+								<td style="width: 80px">
+									<input type="radio" name="gender" class="gender"> kobieta
+								</td>
+								<td style="width: 140px">
+									<input type="radio" name="gender" class="gender"> mężczyzna
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt"> Data urodzenia: </td>
+								<td>
+									<select style="width: 82px">
+										<option>Dzień</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+										<oprion>17</option>
+										<oprion>18</option>
+										<oprion>19</option>
+										<oprion>20</option>
+										<oprion>21</option>
+										<oprion>22</option>
+										<oprion>23</option>
+										<oprion>24</option>
+										<oprion>25</option>
+										<oprion>26</option>
+										<oprion>27</option>
+										<oprion>28</option>
+										<oprion>29</option>
+										<oprion>30</option>
+										<oprion>31</option>
+									</select>
+								</td>
+								<td>
+									<select style="width: 145px">
+										<option>Miesiąc</option>
+										<option>Styczeń</option>
+										<option>Luty</option>
+										<option>Marzec</option>
+										<option>Kwiecień</option>
+										<option>Maj</option>
+										<option>Czerwiec</option>
+										<option>Lipiec</option>
+										<option>Sierpień</option>
+										<option>Wrzesień</option>
+										<option>Październik</option>
+										<option>Listopad</option>
+										<option>Grudzień</option>
+									</select>
+								</td>
+								<td>
+									<select style="width: 98px">
+										<option>Rok</option>
+										<option>2015</option>
+										<option>2014</option>
+										<option>2013</option>
+										<option>2012</option>
+										<option>2011</option>
+										<option>2010</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt">Kraj</td>
+								<td colspan="2">
+									<select style="width: 231px">
+										<option>Kraj</option>
+										<option>Polska</option>
+										<option>Mongolia</option>
+										<option>Żydy</option>
+										<option>Murzyny</option>
+										<option>Kitajce</option>
+										<option>Ciapate</option>
+										<option>Brudasy</option>
+										<option>Hamerykańce</option>
+										<option>Ruskie</option>
+										<option>SSmani</option>
+									</select>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt"> Kod i miasto: </td>
+								<td colspan="3">
+									<input type="text" class="wilderTxtInput">
+								</td>
+							</tr>
+						</table>
+					</div>  
+					<div class="line"></div>
+					<div class="containerForTable" style="height: 300px">
+						<table class="chooseAddress" align="center">
+							<tr>
+								<td></td>
+								<th class="tableHeader">Wybierz adres:</th>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt"> Wpisz nazwę: </td>
+								<td rowspan="8">
+									<div class="addressFrame">
+										<input type="text" class="addressFrameTxt">
+										<div class="domainChooser">
+											<div class="domainChooserLeftColumn">
+												<label><input type="radio" name="domain"> onet.pl</label> <br>
+												<input type="radio" name="domain"> op.pl <br>
+												<input type="radio" name="domain"> poczta.onet.fm <br>
+												<input type="radio" name="domain"> onet.eu <br>
+												<input type="radio" name="domain"> onet.com.pl
+											</div>
+											<div class="domainChooserRightColumn">
+												<input type="radio" name="domain"> vp.pl <br>
+												<input type="radio" name="domain"> spoko.pl <br>
+												<input type="radio" name="domain"> vip.onet.pl <br>
+												<input type="radio" name="domain"> autograf.pl <br>
+												<input type="radio" name="domain"> opoczta.pl
+											</div>                                  
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr></tr>
+							<tr></tr>
+							<tr>
+								<td class="firstColumnTxt"> Wybierz domenę: </td>
+							</tr>
+							<tr></tr>
+							<tr></tr>
+							<tr>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt"> Wybrany e-mail: </td>
+							</tr>
+						</table>
+					</div>
+					<div class="line"></div>
+					<div class="containerForTable" style="height: 160px">
+						<table class="protectionTable" align="center">
+							<tr>
+								<td></td>
+								<th class="tableHeader"> Zabezpieczenia: </th>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt"> Hasło: </td>
+								<td>
+									<input type="password" class="wilderTxtInput">
+								</td>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt"> Powtórz hasło: </td>
+								<td>
+									<input type="password" class="wilderTxtInput">
+								</td>
+							</tr>
+							<tr>
+								<td class="firstColumnTxt">Bezpieczeństwo hasła:</td>
+								<td >
+									<div class="securityLevel" style="margin-right: 2px"> niskie </div>
+									<div class="securityLevel" style="margin-right: 2px"> średnie </div>
+									<div class="securityLevel"> wysokie </div>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<input type="checkbox"> Nie wylogowuj mnie
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="forgotPassword">
+						<p><b>Gdy zapomnisz hasła:</b></p>
+						<p>W przypadku, gdy zapomnisz hasła do konta, możesz szybko i bezpiecznie</p>
+						<p>otrzymać nowe na podany kontakt.</p>
+					</div>
+					<div class="containerForTableDuo">
+						<table class="phoneNumber">
+							<tr>
+								<td class="firstColumnTxt" style="width: 180px"> Nr telefonu komórkowego lub adres e-mail: </td>
+								<td>
+									<input class="wilderTxtInput" type="text">
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td class="addMail"> Dodaj e-mail, nr tel </td>
+							</tr>
+						</table>
+					</div>
+					<div class="line"></div>
+					<div class="containerForTableThird">
+						<table class="robotTable">
+							<tr>
+								<td class="robotTableTxt"> Udowodnij, że nie jesteś robotem: </td>
+								<td rowspan="3">
+									<div class="captcha">
+										<div class="notARobotLeft"> 
+											<input type="checkbox"> Nie jestem robotem
+										</div>  
+										<div class="notARobotRight">
+											<img class="recapchaLogo" src="logo2.gif">
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr></tr>
+							<tr></tr>
+							<tr></tr>
+						</table>
+					</div>
+					<div class="line"></div>
+					<table class="lowerTable">
+						<tr>
+							<th class="tableHeader">Prawne</th>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name"agreements[]"><b> Potwierdzam wszystkie poniższe zgody </b>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name"agreements[]"> Oświadczam, że zapoznałem się i akceptuję treść regulaminu Konta i regulaminu Poczty oraz wyrażam zgodę na przetwarzanie &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;moich danych osobowych przez Grupa Onet.pl SA w celu realizacji zamawianych usług.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name"agreements[]"> Wyrażam zgodę na przetwarzanie moich danych osobowych przez Grupa Onet.pl SA w celach marketingowych.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name"agreements[]"> Wyrażam zgodę na otrzymywanie na podany adres e-mail informacji handlowej wysłanej przez Grupa Onet.pl SA w imieniu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;własnym lub na zlecenie jej partnerów biznesowych.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name"agreements[]"> Chcę świadczenia usługi Onet Konto i Onet Poczta przed upływem terminu na odstępienie od umowy (14 dni) i rozumiem, że nie &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;będę mógł od niej odstąpić.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name"agreements[]"> Zgadzam się na otrzymywanie informacji o produktach alkoholowych.
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name"agreements[]"> Zgadzam się na otrzymywanie informacji dotyczących gier hazardowych (gier losowych i zakładów wzajemnych).
+							</td>
+						</tr>
+					</table>
+					<div class="submit">
+						<input class="submitButton" type="submit" value="Załóż konto">
+					</div>
+					<div class="button">
+						<input class="buttonObject" type="button" value="Anuluj">  
+					</div>
+				</div>
+			</div>
+		</div>
+	</form> 
+</body>
+</html>

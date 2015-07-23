@@ -1,0 +1,243 @@
+.wholePage {
+	width: 1000px;
+	height: 1700px;
+	margin: auto;
+}
+.mainFrame {
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #656A6E;
+	clear: both;
+	width: 1000px;
+	height: 1800px;
+	margin: auto;
+	border: 2px solid #BCD9F5;
+	border-radius: 5px;
+	border-style: groove;
+	background-color: #EFF1F7;
+}
+.leftUpSign {
+	float: left;
+	width: 500px;
+	height: 50px;
+}
+.rigtUpSign {
+
+	float: left;
+	width: 500px;
+	height: 50px;
+}
+.leftUpSignTxt {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.rightUpSignTxt {
+	margin-right: 15px;
+	margin-top: 13px;
+	text-align: right;
+	color: #4F6F8F;
+	font-size: 15px;
+	text-decoration: underline;
+}
+.midMainFrame {
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid #4774A1;
+	width: 980px;
+	height: 1650px;
+	border-radius: 5px;
+	background-color: #F2F2F2;
+}
+.midMainFrameTitleLeft {
+	float: left;
+	width: 130px;
+	height: 130px;
+	margin-left: 20px;
+	border-bottom: 1px solid #A5B4C2;
+	padding-top: 20px;
+}
+.midMainFrameTitleRight {
+	float: left;
+	padding-top: 20px;
+	margin-right: 20px;
+	width: 810px;
+	height: 130px;
+	border-bottom: 1px solid #A5B4C2;
+	margin-bottom: 20px;
+}
+.midMainFrameTitleRightUpTxt {
+	font-size: 20px;
+	font-weight: bold;
+	color: #656A6E;
+}
+
+.containerForTable {
+	width: 520px;
+	height: 430px;
+	margin-left: 200px;
+}
+.yourData {
+	width: 510px;
+	height: 250px;
+}
+.first {
+	border-left: 0;
+	border-right: 0;
+}
+.wilderTxtInput {
+	width: 330px;
+}
+.firstColumnTxt {
+	text-align: right;
+	width: 150px;
+}
+.tableHeader {
+	font-size: 18px;
+	color: ##656A6E;
+	text-align: left;
+}
+.gender {
+	vertical-align: middle;
+}
+.line {
+	width: 940px;
+	border-bottom: 1px solid #4774A1;
+	padding-top: 20px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.chooseAddress {
+	width: 510px;
+}
+.addressFrame {
+	border: 2px solid #D5D5F2;
+	width: 310px;
+	height: 250px;
+	background-color: #E0E0FC;
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 3px;
+}
+.addressFrame .addressFrameTxt {
+	width: 300px;
+}
+.domainChooser {
+	clear: both;
+	margin-top: 40px;
+	padding-top: 5px;
+	width: 300px;
+	height: 150px;
+	border: 2px solid #9EACB8;
+	border-style: ridge;
+	background-color: white;
+}
+.domainChooser .domainChooserLeftColumn {
+	float: left;
+	padding-left: 5px;
+	width: 148px;
+	height: 150px;
+}
+.domainChooser .domainChooserRightColumn {
+	float: left;
+	width: 130px;
+	height: 150px;
+}
+.protectionTable {
+	width: 510px;
+}
+.securityLevel {
+	float: left;
+	width: 110px;
+	height: 20px;
+	background-color: #E0E0FC;
+	text-align: center;	
+}
+.forgotPassword {
+	width: 500px;
+	height: 60px;
+	border: 0px solid black;
+	margin-left: 360px;
+	margin-top: 20px;
+	line-height: 5px;
+}
+.phoneNumber {
+	width: 520px;
+}
+.containerForTableDuo {
+	width: 520px;
+	height: 75px;
+	margin-left: 180px;
+}
+.addMail {
+	text-decoration: underline;
+}	
+.containerForTableThird {
+	width: 520px;
+	height: 75px;
+	margin-left: 145px;
+	margin-bottom: 20px;
+}
+.robotTable {
+	width: 520px;
+}
+.robotTableTxt {
+	width: 214px;
+}
+.captcha {
+	width: 280px;
+	height: 80px;
+	border: 2px solid #89AACC;
+	border-style: groove;
+	border-radius: 10px;
+}
+.notARobotLeft {
+	margin-top: 30px;
+	width: 180px;
+	float: left;	
+}
+.notARobotRight {
+	float: left;
+	width: 90px;
+}
+.recapchaLogo {
+	margin-top: 10px;
+	width: 80px;
+	height: 60px;
+}
+.lowerTable {
+	width: 850px;
+	margin-left: 30px;
+}
+.submit {
+	margin-top: 30px;
+	float: right;
+	width: 180px;
+	height: 50px;
+}
+.button {
+	margin-top: 30px;
+	float: right;
+	width: 180px;
+	height: 50px;
+}
+.submitButton {
+	width: 150px;
+	height: 40px;
+	background-color: #7BD2F7;
+	border: 2px solid #66B5D6;
+	border-radius: 15px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.buttonObject {
+	width: 150px;
+	height: 40px;
+	border:2px solid #66B5D6;
+	border-radius: 15px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
